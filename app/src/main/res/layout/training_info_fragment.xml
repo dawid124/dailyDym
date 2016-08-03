@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llFragmentContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white" >
+
+        <TextView
+            android:id="@+id/exerciseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_alignParentStart="true"
+            android:textIsSelectable="false"
+            android:textSize="15dp"
+            android:text="Aby dodać ćwiczenia naciśnij + przy nazwie planu" />
+
+        <TextView
+            android:id="@+id/exerciseType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp"
+            android:layout_below="@+id/exerciseName"
+            android:layout_alignParentStart="true"
+            android:textSize="10dp"
+            android:textStyle="bold"
+            android:text="W tym miejscu moższ też dodać nowe treningi oraz plany do treningów" />
+
+        <View style="@style/Divider"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:id="@+id/view"
+            android:layout_below="@+id/exerciseType"
+            android:layout_alignParentEnd="true" />
+
+    </LinearLayout>
+
+</RelativeLayout>

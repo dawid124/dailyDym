@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/new_exercise"
+        android:title="Dodaj ćwiczenia"/>
+
+    <item
+        android:id="@+id/new_plan"
+        android:title="Dodaj plan"/>
+
+    <item
+        android:id="@+id/new_training"
+        android:title="Nowy trening"/>
+
+    <item
+        android:id="@+id/delete_plan"
+        android:title="Usuń plan"/>
+</menu>  

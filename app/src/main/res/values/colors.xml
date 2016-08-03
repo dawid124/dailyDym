@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="header_normal">#f1f1f1</color>
+    <color name="header_bcg">#3F51B5</color>
+    <color name="menu_section_header">#ffffff</color>
+    <color name="line_separator">#c4c4c4</color>
+    <color name="light_grey">#cccccc</color>
+    <color name="background_grey">#eeeeee</color>
+    <drawable name="list_normal">#96FFFFFF</drawable>
+    <drawable name="list_active">#22000000</drawable>
+    <drawable name="list_pressed">#22000000</drawable>
+    <color name="text_shadow">#7F000000</color>
+    <color name="text_shadow_white">#ffffff</color>
+</resources>
